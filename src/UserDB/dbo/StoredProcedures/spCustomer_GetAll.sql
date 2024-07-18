@@ -2,5 +2,5 @@
 As
 begin
 	select *
-	from dbo.[User];
+	from dbo.[User]  WITH (NOLOCK);
 end

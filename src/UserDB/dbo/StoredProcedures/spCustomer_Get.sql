@@ -2,6 +2,6 @@
 	@Id int
 AS
 	select *
-	from dbo.[User]
+	from dbo.[User]  WITH (NOLOCK)
 	where Id = @Id;
 RETURN 0
